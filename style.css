@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{background:black;}
+
+.container{background: linear-gradient(
+    120deg
+    , #1db954, #191414);
+width: 200px;
+height: 200px;
+border: 1px solid white;
+border-radius: 50%;
+position: relative;
+top: 25vh;
+left: 43vw;
+}
+
+
+.line1 {
+    position: absolute;
+    width: 245px;
+    height: 115px;
+    border-radius: 50%;
+    border: 28px solid #191414;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate( 
+8deg
+ ) scale(0.7);
+    top: 18px;
+    left: -52px;
+}
+  
+.line2{
+    position: absolute;
+    width: 197px;
+    height: 77px;
+    border-radius: 183%;
+    border: 26px solid #191414;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate( 
+8deg
+ ) scale(0.7);
+    top: 67px;
+    left: -28px;
+}
+
+
+.line3{
+position: absolute;
+width: 153px;
+height: 77px;
+border-radius: 183%;
+border: 26px solid #191414;
+border-right-color: transparent;
+border-bottom-color: transparent;
+border-left-color: transparent;
+transform: rotate( 
+8deg
+) scale(0.7);
+top: 106px;
+left: -9px;
+}
+
+
